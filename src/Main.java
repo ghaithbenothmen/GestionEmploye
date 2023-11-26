@@ -20,6 +20,35 @@ public class Main {
         sc.trierEmployeParNomDepartementEtGrade();
         sc.displayEmploye();
 
+//Departement
+
+        DepartementHashSet dep=new DepartementHashSet();
+        Departement dep1 =new Departement(10,10,"Info");
+        Departement dep2 =new Departement(2,10,"Gestion");
+        Departement dep3 =new Departement(3,10,"Elec");
+
+        dep.ajouterDepartement(dep1);
+        dep.ajouterDepartement(dep2);
+        dep.ajouterDepartement(dep3);
+
+        dep.displayDepartement();
+
+
+        System.out.println("set trie**********");
+        System.out.println(dep.trierDepartementById());
+       // dep.displayDepartement();
+
+
+//hashmap
+        System.out.println("*************hashMap**********");
+        AffectationHashMap empDep=new AffectationHashMap();
+        empDep.ajouterEmployeDepartement(e1,dep1);
+        empDep.ajouterEmployeDepartement(e2,dep2);
+        empDep.afficherEmployesEtDepartements();
+
+        System.out.println("TreeMap");
+        System.out.println(empDep.trierMap());
+
 
     }
 }

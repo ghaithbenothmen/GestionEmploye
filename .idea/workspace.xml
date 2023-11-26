@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02780cde-bdaa-4b62-9272-5d3239779a6f" name="Changes" comment="">
+    <list default="true" id="02780cde-bdaa-4b62-9272-5d3239779a6f" name="Changes" comment="main">
+      <change afterPath="$PROJECT_DIR$/src/AffectationHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Departement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DepartementHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IDepartement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IGestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IGestion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SocieteArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocieteArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +75,26 @@
       <option name="presentableId" value="Default" />
       <updated>1699268190068</updated>
       <workItem from="1699268191068" duration="4787000" />
-      <workItem from="1700226505649" duration="2174000" />
+      <workItem from="1700226505649" duration="5091000" />
+      <workItem from="1700475787753" duration="2796000" />
+      <workItem from="1701039069323" duration="1730000" />
     </task>
+    <task id="LOCAL-00001" summary="main">
+      <option name="closed" value="true" />
+      <created>1700228721695</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700228721695</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="main" />
+    <option name="LAST_COMMIT_MESSAGE" value="main" />
   </component>
 </project>
